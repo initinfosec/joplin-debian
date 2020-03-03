@@ -1,15 +1,17 @@
-# joplin-debfix
-UNOFFICIAL joplin debian fix - testing - currently built for x64 debian-based distros
+# joplin-debian
 
-The official dev of joplin has stated they will not support anything outside of the official AppImage format.
+UNOFFICIAL joplin debian port - currently built for x64 debian-based distros
 
-PLEASE NOTE - the installer script is still being developed and should not be used currently: to install on debian or kali, do the following for now:
+03 Mar 2020 - The official dev of joplin has stated they currently will not support anything outside of the official AppImage format, but has given me the go-ahead to start a debian port/build.
 
-<code>wget https://github.com/initinfosec/joplin-debfix/raw/master/joplin.deb && sudo dpkg -i joplin.deb</code>
+Caveat emptor: As such, this package is unsupported in this format by the developer. I have done what I can to test the builds I release. If you think there is an issue specific to the .deb build, please let me know. Otherwise, I will support where I can, but make no garuntees. 
 
-27 Feb 2019 - fixed appimage sandbox permissions and rebuilt. Also updated install script to point to custom URL for fixed ver, and updated script to check/change cwd if root user.
+To install the debian port of Joplin, until it's in official repos for debian-distros, please do the following:
 
-please reference the official joplin repo for more info
+
+<code>wget https://github.com/initinfosec/joplin-debian/raw/master/joplin.deb && sudo dpkg -i joplin.deb</code>
+
+Please reference the official joplin repo for more info
 
 
 ## Rationale
