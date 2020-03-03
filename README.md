@@ -2,19 +2,24 @@
 
 UNOFFICIAL joplin debian port - currently built for x64 debian-based distros
 
-03 Mar 2020 - The official dev of joplin has stated they currently will not support anything outside of the official AppImage format, but has given me the go-ahead to start a debian port/build.
+03 Mar 2020 - The official dev of joplin has stated they currently will not support anything outside of the official AppImage format, but has given me the go-ahead to start a debian port/build. All credit for the Joplin App goes to [Laurent Cozic](https://github.com/laurent22) and the rest of the team of Joplin contributors and developers.
 
-Caveat emptor: As such, this package is unsupported in this format by the developer. I have done what I can to test the builds I release. If you think there is an issue specific to the .deb build, please let me know. Otherwise, I will support where I can, but make no garuntees. 
+Caveat emptor: As such, this package is unsupported in this format by the developer. I have done what I can to test the builds I release. If you think there is an issue specific to the .deb build, please let me know. Otherwise, I will support where I can, but make no guarantees. 
 
 To install the debian port of Joplin, until it's in official repos for debian-distros, please do the following:
 
 
 <code>wget https://github.com/initinfosec/joplin-debian/raw/master/joplin.deb && sudo dpkg -i joplin.deb</code>
 
-Please reference the official joplin repo for more info
+Please reference the official [Joplin website](https://joplinapp.org/) and [git repo](https://github.com/laurent22/joplin) for more info about Joplin.
 
 
-## Rationale
+## What is Joplin?
+
+Joplin is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks. The notes are searchable, can be copied, tagged and modified either from the applications directly or from your own text editor. The notes are in Markdown format.
+
+
+### Debian Port Rationale
 
 TL;DR - the official package format for Joplin is currently incompatible with Debian-based distros due to the way Debian expects to see permissions on a single file used by electron. The current app package didn't allow for a clean fix, so I have ported the official source to a .deb.
 
