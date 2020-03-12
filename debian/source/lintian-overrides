@@ -1,7 +1,0 @@
-source is missing swiftshader/*
-source-is-missing resources/app/*
-source-is-missing Joplin
-source-is-missing chrome-sandbox
-source-is-missing libEGL.so
-source-is-missing libGLESv2.so
-source-is-missing libffmpeg.so
