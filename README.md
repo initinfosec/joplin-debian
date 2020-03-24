@@ -9,7 +9,7 @@ Caveat emptor: As such, this package is unsupported in this format by the develo
 To install the debian port of Joplin, until it's in official repos for debian-distros, please do the following:
 
 
-<code>wget https://github.com/initinfosec/joplin-debian/raw/master/joplin.deb && sudo dpkg -i joplin.deb</code>
+<code>wget https://github.com/initinfosec/joplin-debian/raw/master/joplin_1.0.193_amd64.deb && sudo dpkg -i joplin_1.0.193_amd64.deb</code>
 
 Please reference the official [Joplin website](https://joplinapp.org/) and [git repo](https://github.com/laurent22/joplin) for more info about Joplin.
 
