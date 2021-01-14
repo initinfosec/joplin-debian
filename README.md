@@ -1,3 +1,5 @@
+## Notice - this repo has moved to GitLab - https://gitlab.com/initinfosec/joplin-debian
+
 # joplin-debian
 
 UNOFFICIAL joplin debian port - currently built for x64 debian-based distros
